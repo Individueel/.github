@@ -4,51 +4,83 @@
 - [Products](#products)
     - [IP Find your product](#find-your-product)
     - [GP Parking pals](#parking-pals)
-    - [Learning Outcome 1: Web Application](#learning-outcome-1-web-application)
-        - [GP](#1-GP)
-            - [Front-end](#front-end)
-            - [Back-end](#back-end)
-        - [IP](#1-IP)
-    - [Learning Outcome 2: Software Quality (GP)](#learning-outcome-2-software-quality)
-        - [GP](#2-GP)
-            - [Testing](#testing)
-            - [Static Code Analysis](#static-code-analysis) 
-            - [Code Reviews](#code-reviews)
-        - [IP](#2-IP)
-    - [Learning Outcome 4: CI/CD (GP)](#learning-outcome-4-cicd)
-        - [GP](#4-GP)
-            - [Continuous Integration](#continuous-integration)
-            - [Continuous Deployment](#continuous-deployment)
-        - [IP](#4-IP)
-    - [Learning Outcome 6: Design (GP)](#learning-outcome-6-design)
-        - [GP](#6-GP)
-            - [Design](#design)
-            - [Design Origin](#design-origin)
-        - [IP](#6-IP)
-    - [Learning Outcome 8: Professional (GP)](#learning-outcome-8-professional-ip)
-        - [GP](#8-GP)
-            - [Professional](#professional)
-            - [Feedback](#feedback)
-            - [Researches](#research)
-        - [IP](#8-IP)
-- [Research](#research)
+
+- [Researches](#research)
     - [What is the most secure type of cryptographic encrypting](#which-cryptographic-encryption-is-best)
-    - [What are the differences between SCRUM methods](#TODO)
+    - [What are the differences between SCRUM methods](#what-are-the-differences-between-scrum-methods)
+
+- [Learning Outcome 1: Web Application](#learning-outcome-1-web-application)
+    - [Front-end](#front-end)
+    - [Back-end](#back-end)
+        - [Swagger](#swagger)
+    - [API Requests](#api-requests)
+    - [External API](#external-api)
+        
+- [Learning Outcome 2: Software Quality](#learning-outcome-2-software-quality)
+    - [Testing](#testing)
+    - [Unit Testing](#unit-testing)
+
+- [Learning Outcome 3: Agile method](#learning-outcome-3-agile-method)
+    - [Agile method](#agile-method)
+            
+- [Learning Outcome 4: CI/CD](#learning-outcome-4-cicd)
+    - [Continuous Integration](#continuous-integration)
+    - [Continuous Deployment](#continuous-deployment)
+
+- [Learning Outcome 5: Cultural differences and ethics](#learning-outcome-5-cultural-differences-and-ethics)
+    - [Cultural differences](#cultural-differences)
+    - [Ethics](#ethics)
+
+- [Learning Outcome 6: Design](#learning-outcome-6-design)
+    - [Architecture](#architecture)
+    - [Model](#model)
+    - [User Interface](#user-interface)
+
+- [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
+    - [Business processes](#business-processes)
+
+- [Learning Outcome 8: Professional](#learning-outcome-8-professional-ip)
+    - [Professional](#professional)
+    - [Feedback](#feedback)
+    - [Researches](#research)
+
 - [Reflection](#reflection)
     - [What went good?](#what-went-good)
     - [What will I do different next time?](#what-will-i-do-different-next-time)
+    - [What did I learn?](#what-did-i-learn)
 - [Epilogue](#epilogue)
+
+
+
+
 
 # Products
 This semester I had to realise all the learning outcomes of semester 3. Per product I will explain how I realised the corresponding learning outcome. One project I made by myself is called, find your product. Which is a website that compares different products with eachother. And can recommend items with machine learning predictions. While the other product is an app I made with a group. Which is a system for a parking garage. Where you can link your car to an account, and can just drive in and out to pay, and reservate a place in the garage all through the app.
 
-# Find your product
+## Find your product
 I decided to make a website that compares different products with eachother. The benefit of this idea is that I can always change the type of products on my website. And the website will still be compatible. So it is a sort of template that can be used for various different product comparison websites.
 
-# Parking Pals
+## Parking Pals
 For my group project, my team has to make a projecct for the company Mandiaan. We are making a monolith application that allows users to reservate for a parking space, in parking garages that uses the system. And it also allows users to simply pay by connecting a bank card to their account and then just driving out of the garage without the need of paying at the spot, in a machine.
 
-# Learning Outcome 1: Web Application (IP)
+
+
+
+
+# Research
+For my projects, I had to make a few researches. I will explain the researches I made.
+
+## Which cryptographic encryption is best
+TODO
+
+## What are the differences between scrum methods
+TODO
+
+
+
+
+
+# Learning Outcome 1: Web Application
 *You design and build **user-friendly**, **full-stack** web applications.*
 
 Clarification:
@@ -58,26 +90,24 @@ Clarification:
 **Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
 
 ## Front-end
-In this section I'll show some parts of my frontend, the bigger milestones.
-
-### React
-The front-end has been made in React.
+My front-end has been made in React.
 Which is a JavaScript framework, that allows you to easily build a website.
 
 ## Back-end
-..
+My back-end has been made in Spring Boot. Which is a Java framework that allows you to easily build a back-end. It has a lot of features that make it easy to build a back-end. Like a lot of pre-made classes that you can use to build your back-end. And it also has a lot of pre-made classes that you can use to build your database. Which is called an ORM. Which stands for Object Relational Mapping. This allows you to easily map your database to your Java classes. And you can easily make queries to your database.
 
-### API Requests
+### Swagger
+To improve the user experience of my back-end, I decided to make use of Swagger. Which is a tool that allows you to easily document your API. And it also allows you to test your API. Which is very useful for testing your API in a quicker and simpler way.
+
+## API Requests
 To communicate my front-end to my back-end I make use of a REST api. Where my front-end makes various requests to the various microservices I made, to pull and push information. To secure these requests, I make use of JWT tokens. These introduce a role permission system to request certain information.
 
-### External API
-To 
+## External API
+To login and register, I decided to use Google Oauth2. This allows users to login with their google account. And I can use the information from their google account to create a user in my database. This way I don't have to store passwords, and I can use the information from their google account to create a user in my database.
 
-### Communicate with Front-end
-..
 
-## UX-Testing
-..
+
+
 
 # Learning Outcome 2: Software Quality
 *You use software **tooling and methodology** that continuously monitors and improve the software quality during software development.*
@@ -90,28 +120,42 @@ Clarification:
 In this semester I have to make use of 4 types of tests, unit, integration, regression and system tests. If i have a good explanation for it I may decide to not use certain types of tests.
 
 ### Unit Testing 
-..
+TODO
 
 ### Regression Testing
-...
+TODO
 
 ### System Testing
-...
+TODO
 
 #### End-to-End Testing
-...
+TODO
 
 ## Static Code Analysis
-...
+TODO
 
 ## Code Reviews
-...
+TODO
 
 ### Coding language
-...
+TODO
 
 ### API requests 
-...
+TODO
+
+
+
+
+
+# Learning Outcome 3: Agile method
+*You apply **agile** software development principles and practices.*
+
+Clarification:
+..
+
+
+
+
 
 # Learning Outcome 4: CI/CD
 *You **design and implement** a (semi)automated software release process that matches the needs of the project context.*
@@ -132,6 +176,21 @@ In my group project, we deploy our front-end using render.com
 This website pulls the latest version of the master branch, whenever it gets merged.
 By simply connecting it to your github account and setting this continuous deployment up.
 
+
+
+
+
+# Learning Outcome 5: Cultural differences and ethics
+*You are aware of **cultural differences** and **ethical issues** in software development.*
+
+Clarification:
+..
+
+
+
+
+
+
 # Learning Outcome 6: Design
 *You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
 
@@ -143,13 +202,27 @@ I made a container model, to describe the structure of my application.
 
 ![image](./images/architecture_model.png)
 
-### User Interface
-...
+## User Interface
+TODO
 
-### UX-Testing
-...
+## UX-Testing
+TODO
 
-# Learning Outcome 8: Professional (IP)
+
+
+
+# Learning Outcome 7: Business processes
+*You can **translate** business requirements to software requirements and **validate** them using **multiple types of test techniques**.*
+
+Clarification:
+..
+
+
+
+
+
+
+# Learning Outcome 8: Professional
 *You act in a **professional manner** during software development and learning.*
 
 Clarification:
@@ -158,78 +231,29 @@ Clarification:
 You choose and substantiate solutions for a given problem.
 
 ## Feedback
-...
-
-## Researches
-...
-
-# Learning Outcome 1: Web Application (GP)
-*You design and build **user-friendly**, **full-stack** web applications.*
-
-Clarification:
-
-**User friendly**: You apply basic User experience testing and development techniques.
-
-**Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
-
-## Front-end (ROS)
-...
-
-## Back-end (ROS)
-...
-54
-# Learning Outcome 3: Agile Method
-*You can implement the software process for your project according to a given agile software development method.*
-
-Clarification:
-
-**Agile** method: You are aware of most popular agile methods and their underlying agile principles. You are able to implement the process of your software project according to a chosen methodology.
-
-## Scrum
-...
-
-# Learning Outcome 5: Cultural Differences and Ethics
-*You **recognize** and **take into account** cultural differences when working with multi-site teams and are aware of ethical aspects in software development.*
-
-Clarification:
-
-**Recognize**:  Recognition is based on theoretically substantiated awareness of cultural differences and ethical aspects in software engineering.
-
-**Take into account**: Adapt your communication, working, and behaviour styles to work with other developers from different cultures; 
-Address one of the standard Programming Ethical Guidelines (e.g., ACM Code of Ethics and Professional Conduct) in your work.  
-
-# Learning Outcome 6: Requirements
-*You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
-
-Clarification:
-
-**Multiple types of test techniques**: You apply user acceptance testing and stakeholder feedback to validate the quality of the requirements. You evaluate the quality of the design (e.g., by testing or prototyping) taking into account the formulated quality properties like security and performance.
-
-# Learning Outcome 7: Business processes
-*You can explain **simple** business processes and **relate** them to the development of your software project.*
-
-Clarification:
-
-**Simple**: predominantly sequential processes with one or two alternative paths.
-
-**Relate**: understanding the relationships between the process and software.
-
-# Learning Outcome 8: Professional (GP)
-*You act in a **professional manner** during software development and learning.*
-
-Clarification:
-
-**Professional manner**: You develop software as a team effort according to a prescribed software methodology and following team agreements. You are able to track your work progress and communicate your progress with the team. You actively ask and apply feedback from stakeholders and advise them on the most optimal technical and design (architectural) solutions. You choose and substantiate solutions for a given problem.
+TODO
 
 ## Team Communication
-...
+TODO
 
-# Research
+
+
+
+
 
 # Reflection
 
 ## What went good?
-...
+TODO
+
+## What will I do different next time?
+
+## What did I learn?
+
+
+
+
+
 
 # Epilogue
-...
+TODO
