@@ -13,6 +13,7 @@
     - [Front-end](#front-end)
     - [Back-end](#back-end)
         - [Swagger](#swagger)
+        - [Gateway](#gateway)
     - [API Requests](#api-requests)
     - [External API](#external-api)
         
@@ -93,11 +94,19 @@ Clarification:
 My front-end has been made in React.
 Which is a JavaScript framework, that allows you to easily build a website.
 
+![image](./images/homepage.png)
+![image](./images/products.png)
+
 ## Back-end
 My back-end has been made in Spring Boot. Which is a Java framework that allows you to easily build a back-end. It has a lot of features that make it easy to build a back-end. Like a lot of pre-made classes that you can use to build your back-end. And it also has a lot of pre-made classes that you can use to build your database. Which is called an ORM. Which stands for Object Relational Mapping. This allows you to easily map your database to your Java classes. And you can easily make queries to your database.
 
 ### Swagger
 To improve the user experience of my back-end, I decided to make use of Swagger. Which is a tool that allows you to easily document your API. And it also allows you to test your API. Which is very useful for testing your API in a quicker and simpler way.
+
+### Gateway
+To make my back-end more secure, I decided to make use of a gateway. Which is a microservice that acts as a gateway to my back-end. It allows me to make use of a JWT token. Which is a token that allows me to secure my API. And it also allows me to make use of a role permission system. Which allows me to give certain roles certain permissions.
+
+![image](./images/gateway.png)
 
 ## API Requests
 To communicate my front-end to my back-end I make use of a REST api. Where my front-end makes various requests to the various microservices I made, to pull and push information. To secure these requests, I make use of JWT tokens. These introduce a role permission system to request certain information.
