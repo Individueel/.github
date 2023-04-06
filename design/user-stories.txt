@@ -1,0 +1,16 @@
+1. As a user, I want to be able to search for different products by name, category or price range, so that I can easily find what I'm looking for.
+2. As a user, I want to be able to compare multiple products side by side, so that I can see how they differ and make an informed decision.
+3. As a user, I want to be able to create a list of my favorite products, so that I can easily access them later and compare them again.
+4. As a user, I want to be able to create an account using Google OAuth, so that I can easily log in and save my favorite products across devices.
+5. As a user, I want to be able to rate and review products, so that I can share my opinion and help others make a decision.
+6. As a user, I want to be able to see the ratings and reviews of other users, so that I can get a better idea of the quality of the product.
+7. As a user, I want to be able to see the price history of a product, so that I can determine if it's a good time to buy.
+8. As a user, I want to be able to receive notifications when a product I'm interested in goes on sale, so that I can take advantage of the discount.
+9. As a user, I want to be able to share a link to a product with my friends, so that I can get their opinion and recommendations.
+10. As a user, I want to be able to report a product if I think it's misrepresented or fraudulent, so that other users can avoid it.
+
+11.
+12.
+13.
+14.
+15.

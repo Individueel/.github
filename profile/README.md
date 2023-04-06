@@ -1,16 +1,4 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-<style>
-body {
-    background-color: white;
-}
-</style>
-
-<div class="alert alert-warning">
-    <h1><strong>Portfolio</strong></h1>
-    <br><h4>Mike van den Hoef</h4>
-    <br><h4>Fontys Eindhoven</h4>
-</div>
+# Portfolio - Mike vd Hoef
 
 ## Table of contents
 - [Products](#products)
