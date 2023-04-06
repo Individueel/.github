@@ -1,4 +1,16 @@
-# Semester 3 - Software
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<style>
+body {
+    background-color: white;
+}
+</style>
+
+<div class="alert alert-warning">
+    <h1><strong>Portfolio</strong></h1>
+    <br><h4>Mike van den Hoef</h4>
+    <br><h4>Fontys Eindhoven</h4>
+</div>
 
 ## Table of contents
 - [Products](#products)
@@ -6,12 +18,8 @@
     - [GP Parking pals](#parking-pals)
     - [Learning Outcome 1: Web Application](#learning-outcome-1-web-application)
         - [GP](#1-GP)
-            - [Front-end](#front-end-rho)
-            - [Back-end](#back-end-rho)
-            - [Future Plans](#future-plans)
-            - [UX-Testing](#ux-testing) 
-            - [Object Relational Mapping](#object-relational-mapping)
-            - [Architecture](#architecture)
+            - [Front-end](#front-end)
+            - [Back-end](#back-end)
         - [IP](#1-IP)
     - [Learning Outcome 2: Software Quality (GP)](#learning-outcome-2-software-quality)
         - [GP](#2-GP)
@@ -75,6 +83,7 @@ Which is a JavaScript framework, that allows you to easily build a website.
 To communicate my front-end to my back-end I make use of a REST api. Where my front-end makes various requests to the various microservices I made, to pull and push information. To secure these requests, I make use of JWT tokens. These introduce a role permission system to request certain information.
 
 ### External API
+To 
 
 ### Communicate with Front-end
 ..
