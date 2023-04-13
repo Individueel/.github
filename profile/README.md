@@ -10,6 +10,7 @@
     - [What are the differences between SCRUM methods](#what-are-the-differences-between-scrum-methods)
 
 - [Learning Outcome 1: Web Application](#learning-outcome-1-web-application)
+    - [User Interface](#user-interface)
     - [Front-end](#front-end)
     - [Back-end](#back-end)
         - [Swagger](#swagger)
@@ -35,7 +36,6 @@
 - [Learning Outcome 6: Design](#learning-outcome-6-design)
     - [Architecture](#architecture)
     - [Model](#model)
-    - [User Interface](#user-interface)
 
 - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
     - [Business processes](#business-processes)
@@ -89,6 +89,11 @@ Clarification:
 **User friendly**: You apply basic User experience testing and development techniques.
 
 **Full-stack**: You design and build a full stack application using commonly accepted front end (JavaScript-based framework) and back end techniques (e.g. Object Relational Mapping) choosing and implementing relevant communication protocols and addressing asynchronous communication issues.
+
+## User Interface
+To improve the user experience of my application, I decided to make use of front-end designs. To do this I made use of Figma. Which is a tool that allows you to easily design a website. And it also allows you to easily export the css to help you build a website. To figure out what kind of designs I first did some research into popular websites. Most websites have a similar design, especially on the landing page. So I started with a design for that.
+
+![image](../images/front-end-design.png)
 
 ## Front-end
 My front-end has been made in React.
@@ -213,12 +218,15 @@ I made an architecture diagram to determine what kind of structure, and stack I 
 ## Model
 I made a container model, to describe the structure of my application.
 
-![image](./images/architecture_model.png)
+![image](../images/architecture_modelv1.png)
 
-## User Interface
-To improve the user experience of my application, I decided to make use of front-end designs. To do this I made use of Figma. Which is a tool that allows you to easily design a website. And it also allows you to easily export the css to help you build a website. To figure out what kind of designs I first did some research into popular websites. Most websites have a similar design, especially on the landing page. So I started with a design for that.
+After receiving feedback from my teacher, I decided to make some changes to my architecture. I decided to make use of a gateway, to make my back-end more secure. 
 
-![image](../images/front-end-design.png)
+![image](../images/architecture_modelv2.png)
+
+And later on I also decided to make use of a discovery server, as this allows me to easily scale my application. And it also allows me to easily make use of a load balancer. Which allows me to easily distribute the load over my microservices. And lastly it also gives me the ability to change the port of my microservices, without having to change the ports in my gateway.
+
+![image](../images/architecture_modelv3.png)
 
 ## UX-Testing
 TODO
