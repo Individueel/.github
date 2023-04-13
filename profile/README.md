@@ -92,10 +92,14 @@ Clarification:
 
 ## Front-end
 My front-end has been made in React.
-Which is a JavaScript framework, that allows you to easily build a website.
+Which is a JavaScript framework, that allows you to easily build a website. It has a lot of features that make it easy to build a website. Like a lot of pre-made components that you can use to build your website. And it also has a lot of pre-made classes that you can use to build your website. Which is called a state management system. Which allows you to easily manage the state of your website. And it also allows you to easily make requests to your back-end. The first thing you see on a website is a landing page, and based off designs I made I made a first version of it for my website.
 
-![image](./images/homepage.png)
-![image](./images/products.png)
+![image](../images/homepage.png)
+
+My first iteration of my landing page was nice, but not like I wanted it to be. So in the second iteraction I made some changes to it. And now it looks more like the designs I came up with.
+![image](../images/homepage2.png)
+
+![image](../images/products.png)
 
 ## Back-end
 My back-end has been made in Spring Boot. Which is a Java framework that allows you to easily build a back-end. It has a lot of features that make it easy to build a back-end. Like a lot of pre-made classes that you can use to build your back-end. And it also has a lot of pre-made classes that you can use to build your database. Which is called an ORM. Which stands for Object Relational Mapping. This allows you to easily map your database to your Java classes. And you can easily make queries to your database.
@@ -212,7 +216,9 @@ I made a container model, to describe the structure of my application.
 ![image](./images/architecture_model.png)
 
 ## User Interface
-TODO
+To improve the user experience of my application, I decided to make use of front-end designs. To do this I made use of Figma. Which is a tool that allows you to easily design a website. And it also allows you to easily export the css to help you build a website. To figure out what kind of designs I first did some research into popular websites. Most websites have a similar design, especially on the landing page. So I started with a design for that.
+
+![image](../images/front-end-design.png)
 
 ## UX-Testing
 TODO
