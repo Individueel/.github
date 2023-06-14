@@ -30,12 +30,13 @@
     - [Continuous Deployment](#continuous-deployment)
 
 - [Learning Outcome 5: Cultural differences and ethics](#learning-outcome-5-cultural-differences-and-ethics)
-    - [Cultural differences](#cultural-differences)
-    - [Ethics](#ethics)
+    - [Cultural differences](#what-is-culture)
+    - [Ethics](#what-are-ethics)
 
 - [Learning Outcome 6: Design](#learning-outcome-6-design)
     - [Architecture](#architecture)
     - [Model](#model)
+    - [User stories](#user-stories)
 
 - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
     - [Business processes](#business-processes)
@@ -69,17 +70,15 @@ For my group project, my team has to make a projecct for the company Mandiaan. W
 
 
 # Research
-For my projects, I had to make a few researches. I will explain the researches I made.
+For my projects, I had to do two research papers. I will explain the two research papers I made.
 
 ## Which cryptographic encryption is best
 In this research, I compare different cryptographic encryptions. And I will explain which one is the best in general.
 As a result of this research, I will be able to make a better decision on which cryptographic encryption to use in my projects.
+[Research](https://github.com/Individueel/.github/tree/main/research/cryptographic_encryption.docx)
 
 ## What are the differences between scrum methods
-
-
-
-
+[Research](https://github.com/Individueel/.github/tree/main/research/agile.docx)
 
 
 # Learning Outcome 1: Web Application
@@ -196,6 +195,8 @@ In my group project at first we didn't do code reviews at all. We used to just l
 # Learning Outcome 3: Agile method
 *You apply **agile** software development principles and practices.*
 
+Also see my research to agile methods here: [Link](#what-are-the-differences-between-scrum-methods)
+
 ## Agile
 Agile is a way of developing software, it is a sort of guide for software engineers to improve the way of working within a team.
 On Fontys I was led towards using SCRUM starting from semester 1. But after many conversations with people who work in ICT. I discovered that pure SCRUM is not agile at all. And that most companies use either no SCRUM at all or a super set of it. There also seems to be a division between on one side people who love agile, and on one side people who hate agile. 
@@ -211,6 +212,12 @@ This was because with waterfall the scope was too wide. And focussing on one par
 At the start of our group project we did a small research to find out which Agile method to use. But we quickly came to the solution to use Scrum.
 The reason for this is that, the entire group was familiar with it, due to the use of Scrum in other semesters aswell. We used Jira to control our process of Scrum by having a sprint board, and a backlog. We also had a daily standup meeting to keep each other up to date on what we were working on. And we had a retrospective meeting every week to discuss what went well and what could be improved. We also had a sprint planning meeting every two weeks to plan the next sprint. And we had a sprint review meeting every two weeks to show our progress to our stakeholders.
 
+## Sprints
+In my group project we had sprints of 2 weeks. In this weeks we used devops from azure to manage the sprint.
+Here we made tasks for each user story per sprint, and divided all the tasks between the members.
+In this screenshot, you can see how this looks like.
+Each user story has a sort of master that makes sure that the user story is excuted as described by the stakeholders.
+![image](./images/scrum_sprint.png)
 
 # Learning Outcome 4: CI/CD
 *You **design and implement** a (semi)automated software release process that matches the needs of the project context.*
@@ -238,6 +245,21 @@ By simply connecting it to your github account and setting this continuous deplo
 # Learning Outcome 5: Cultural differences and ethics
 *You are aware of **cultural differences** and **ethical issues** in software development.*
 
+(IEEE Computer Society, 2023) Code of Ethics.
+
+## Different dimensions of cultural differences
+Cultural differences have 4 dimensions: power distance (PDI), individualism (IDV), uncertainty avoidance (UAI) and masculinity (MAS).
+I found this from: Team, C. (2023). Hofstede’s Cultural Dimensions Theory. Corporate Finance Institute. [link](https://corporatefinanceinstitute.com/resources/management/hofstedes-cultural-dimensions-theory/)
+
+- Power Distance, is basically how you behave towards someone with another level of power. For example, you act different to your boss than to a regular co-worker.
+You can see this on Fontys, where you speak more formal and polite to your stakeholders, while to other students you may talk more casually.
+
+- Individualism, some people work better alone while others with better together. I can notice this in my group project, where some members are really great at executing tasks by themselves, and taking initiative in starting projects by their own. While others need a leader to help them guide the way.
+
+- Uncertainty Avoidance, this is basically how stiff a culture is in change. For example if you work in a group with people from the Netherlands together with people from north korea, you will encounter Uncertainty Avoidance, as rules and laws are way more strict in South Korea compared to the Netherlands. While we have more freedom of expression here.
+
+- Masculinity, In masculine culture, men are expected to be more assertive, competitive and focused on materials. While women are expected to be focused more on nurturing and quality. You see this everywhere in modern life, while this is becoming less due to the woke culture rising at the moment.
+
 ## What is culture
 The beliefs and characteristics of a group of people shared around a place or time.
 
@@ -258,6 +280,7 @@ Where people live in their own bubble of apps, websites and accounts they follow
 If this influence is guided towards behavior considered non ethical, it could become dangerous very quickly.
 
 ## The use of ethics for the best
+[Source](https://www.wired.com/story/twitter-ethical-ai-team/)
 As ethics are so important within software engineering, it's important to use ethics in the right way.
 But that leads the question, what is the right way.
 As opinions are different, the morals of engineers are different.
@@ -277,7 +300,16 @@ People tend to apply for jobs that fall in the same line as their own ethics.
 - The other option is simply great communication. If you have a team with differentiating ethics you have to make sacrifices.
 With great communication a team can find a middleground between the different ethics in the group. And together can make a standard ethics guide out of this.
 
-## Ethics and culture in my project
+## Culture in my projects
+In my group project, I noticed that my culture is more strict, than the culture of other students.
+I usually am more serious when it gets down to the business of projects.
+While other students often lack this type of serious.
+This can be caused because they grew up in a culture with less Uncertainty Avoidance. 
+Where the power distance between parents and child is completely different from mine.
+Where certain people tend to work more individualistic and owe up for their own work.
+Where others need the rest of the group to tell them what to do, and how to do it.
+
+## Ethics in my projects
 In my personal project I am making a website that compares different producs with eachother.
 It is an ethical question whether I should sort the order of appearance of products on my pages in various ways.
 Such as prioritizing products that were made in an eco friendly way, or sorting based off fees I get paid.
@@ -285,12 +317,21 @@ Also the way I collect data from users can clash with ethics of users regarding 
 
 In my group project I am creating a parking garage app.
 Here it is an ethical question whether people who have an electric car, should have a special spot for their cars, and whether they should be at the front of the garage, as often is seen.
-In terms of my team, there are some minor cultural differences.
-Where certain people tend to work more individualistic and owe up for their own work.
-Where others need the rest of the group to tell them what to do, and how to do it.
 
 # Learning Outcome 6: Design
-*You translate (non-functional) requirements to extend existing (architectural) designs and can validate them using **multiple types of test techniques**.*
+*You translate (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**.*
+
+## User Stories
+1.  As a website visitor, I want to be able to search for different products by name, category or price range, so that I can easily find what I'm looking for.
+2.  As a website visitor, I want to be able to compare multiple products side by side, so that I can see how they differ and make an informed decision.
+3.  As a website visitor, I want to be able to create a list of my favorite products, so that I can easily access them later and compare them again.
+4.  As a website visitor, I want to be able to create an account using Google OAuth, so that I can easily log in and save my favorite products across devices.
+5.  As a website visitor, I want to be able to rate and review products, so that I can share my opinion and help others make a decision.
+6.  As a website visitor, I want to be able to see the ratings and reviews of other users, so that I can get a better idea of the quality of the product.
+7.  As a website visitor, I want to be able to see the price history of a product, so that I can determine if it's a good time to buy.
+8.  As a website visitor, I want to be able to receive notifications when a product I'm interested in goes on sale, so that I can take advantage of the discount.
+9.  As a website visitor, I want to be able to share a link to a product with my friends, so that I can get their opinion and recommendations.
+10. As a website visitor, I want to be able to report a product if I think it's misrepresented or fraudulent, so that other users can avoid it.
 
 ## Architecture
 I made an architecture diagram to determine what kind of structure, and stack I want my application to be be.
@@ -308,22 +349,49 @@ And later on I also decided to make use of a discovery server, as this allows me
 
 ![image](./images/architecture_modelv3.png)
 
+## UI Designs
+Earlier in this document I showed my UI designs, and the process of evolution my designs took.
+[Link](#Front-end)
+
+For color schemes I used the website Colormind, that with AI generates colors that match well with others.
+And I came up with these 3 colors I use through my whole website.
+![image](./images/color_scheme.png)
+
 ## UX-Testing
-TODO
+The simplest way of UI testing, is simply asking someone to use your website, and ask for feedback.
+So I made my sister test my website for me.
+She didn't like the initial navigation bar on the left side of my products page, because it was a lot of scrolling to navigate towards the filter you want.
+And that was the main thing that bugged her on my website. 
+The only other thing was that my profile page was not complete yet, but this is because I have no priority on finishing that right now.
 
-
+I could also use google lighthouse to further test my UI. With this I can perform speed tests, to see which things in my application run smooth or not.
+This can help me address problems and help me fix these.
+I have not set it up, because I have never used it before, and it is not my priority right now.
+But I know this tool exists and may be useful in the future.
 
 
 # Learning Outcome 7: Business processes
 *You can **translate** business requirements to software requirements and **validate** them using **multiple types of test techniques**.*
 
-Clarification:
-..
+- What is a stakeholder?
+A stakeholder is an individual, group, or organization that has a direct or indirect interest or involvement in a project, organization, or system. Stakeholders can be affected by or have an impact on the outcome, success, or operations of the entity they are associated with.
 
+- Who are the stakeholders in your project?
+For my team project, only I and my teachers are stakeholders.
+My teachers are involved in my learning process, and judging whether my project lives up to their expectations.
+I am involved as developer, and creates the project. My goal is to make a good working application, and to fullfill all userstories.
 
+- How a business proces relates to software applications? 
+In short, software applications play a crucial role in supporting and enhancing business processes. They can automate tasks, integrate systems, analyze data, and optimize workflows, ultimately helping organizations achieve their business objectives more effectively and efficiently.
 
+- Business processes
+In my group project we have a process that automatically starts all the services we have made, so you can run and test it.
+In this process first we the developers click a button, then a sequence starts where all folders are being discovered.
+Then the right start commands for each folder is being loaded, and then those start commands are one by one executed.
+Leading to the moment where all projects are booted up and opened on new internet tabs.
+This helps us developers to quickly go to work, and improve our efficiency.
 
-
+In our group project we are making a parking garage app, here is a business process that a user can click on a button to search for a free spot in the garage, if they don't have a reservation. And if the user has a reservation it will assign the spot that was reservated for the user. Then the user receives their parking spot in the application so they know where to drive to. And in the database is then registered that the user is in the parking garage.
 
 # Learning Outcome 8: Professional
 *You act in a **professional manner** during software development and learning.*
@@ -349,6 +417,9 @@ To remain professional in this project, I made sure to communicate about issues,
 ## Individual communication
 During this semester I tried to have a meeting with my teachers for my individual project every two weeks. This way I would have enough work to show him, while still seeing him often. This allowed me to get feedback on my work, and to get help when I was stuck. I had two occurences where work of the group project got in the way of the individual project, and this caused me to skipped a meeting with my teacher. These 2 times I should have communicated this with my teacher, and should have told him that I wanted to wait another week before having a meeting. But I did not do this, and this is something I should improve on in the future.
 
+## Research
+See this [Link](#research)
+
 # Reflection
 
 ## What went good?
@@ -358,11 +429,4 @@ TODO
 TODO
 
 ## What did I learn?
-TODO
-
-
-
-
-
-# Epilogue
 TODO
