@@ -253,12 +253,14 @@ I found this from: Team, C. (2023). Hofstede’s Cultural Dimensions Theory. Cor
 
 - Power Distance, is basically how you behave towards someone with another level of power. For example, you act different to your boss than to a regular co-worker.
 You can see this on Fontys, where you speak more formal and polite to your stakeholders, while to other students you may talk more casually.
+![image](https://user-images.githubusercontent.com/74303221/173791109-7a9a2b23-c718-443a-9434-920864cb93a3.png)
 
 - Individualism, some people work better alone while others with better together. I can notice this in my group project, where some members are really great at executing tasks by themselves, and taking initiative in starting projects by their own. While others need a leader to help them guide the way.
 
 - Uncertainty Avoidance, this is basically how stiff a culture is in change. For example if you work in a group with people from the Netherlands together with people from north korea, you will encounter Uncertainty Avoidance, as rules and laws are way more strict in South Korea compared to the Netherlands. While we have more freedom of expression here.
 
 - Masculinity, In masculine culture, men are expected to be more assertive, competitive and focused on materials. While women are expected to be focused more on nurturing and quality. You see this everywhere in modern life, while this is becoming less due to the woke culture rising at the moment.
+![image](https://user-images.githubusercontent.com/74303221/173784309-b9497c83-48c9-418b-9be4-d79cdc288d2c.png)
 
 ## What is culture
 The beliefs and characteristics of a group of people shared around a place or time.
