@@ -240,8 +240,8 @@ By simply connecting it to your github account and setting this continuous deplo
 
 In my individual project I use docker to deploy my services. And save them to docker hub.
 This happens whenever I push to the master branch.
-![image](ci-cd3.png)
-![image](dockerhub.png)
+![image](./images/ci-cd3.png)
+![image](./images/dockerhub.png)
 
 Now people can visit docker hub to pull my services and run them locally.
 
