@@ -75,10 +75,10 @@ For my projects, I had to do two research papers. I will explain the two researc
 ## Which cryptographic encryption is best
 In this research, I compare different cryptographic encryptions. And I will explain which one is the best in general.
 As a result of this research, I will be able to make a better decision on which cryptographic encryption to use in my projects.
-[Research](https://github.com/Individueel/.github/tree/main/research/cryptographic_encryption.docx)
+[Research](https://github.com/Individueel/.github/tree/main/research/cryptographic_encryption.MD)
 
 ## What are the differences between scrum methods
-[Research](https://github.com/Individueel/.github/tree/main/research/agile.docx)
+[Research](https://github.com/Individueel/.github/tree/main/research/agile.MD)
 
 
 # Learning Outcome 1: Web Application
@@ -238,9 +238,12 @@ In my group project, we deploy our front-end using render.com
 This website pulls the latest version of the master branch, whenever it gets merged.
 By simply connecting it to your github account and setting this continuous deployment up.
 
+In my individual project I use docker to deploy my services. And save them to docker hub.
+This happens whenever I push to the master branch.
+![image](ci-cd3.png)
+[!image](dockerhub.png)
 
-
-
+Now people can visit docker hub to pull my services and run them locally.
 
 # Learning Outcome 5: Cultural differences and ethics
 *You are aware of **cultural differences** and **ethical issues** in software development.*
