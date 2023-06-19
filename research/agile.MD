@@ -1,9 +1,10 @@
-# Onderzoek Agile Methoden - Mike van den Hoef ( Fontys ICT )
+# Onderzoek Agile Methoden - Mike van den Hoef ( Fontys ICT ) - What scrum method should I use
 
 ## Table of contents
 - [What is agile development?](#what-is-agile-development)
 - [Comparison with Traditional Methods](#comparison-with-traditional-methods)
-- [Which methods are most popular?](#what-is-something-else-than-agile)
+- [Which methods are most popular?](#which-methods-are-most-popular)
+- [What is Lean](#what-is-lean)
 - [Differences scrum and other methods](#what-are-the-difference-between-scrum-and-other-methods)
 - [Choosing an Agile Management Tool](#choosing-an-agile-management-tool)
 - [Sources](#sources)
@@ -25,6 +26,20 @@ There are several popular agile methods that have evolved over time. The most we
 
 According to a survey conducted in 2020, Scrum is the most widely used agile method, followed by Kanban and Lean. (O'Loughlin, 2020)
 
+## What is Lean
+Lean prioritizes the elimination of waste to improve efficiency. This helps teams continually improve their processes while emphasizing the tasks that bring the most value to customers. (https://www.easyagile.com/blog/lean-agile/) 
+Lean is a mindset that focuses on reducing waste and continuously improving the development process. It originated in industrial manufacturing and was later applied to software development as Lean software development. (Poppendieck & Poppendieck, 2003)
+
+- Principles of Lean
+1. Identify Value: The first step in Lean principles is to understand the customer's perspective. Value refers to what the customer needs and desires from a specific project or product. [Source: Lean Enterprise Institute]
+
+2. Value Stream: The team visually maps out the steps and processes involved in bringing the product from inception to delivery. By making each step visible and keeping the value in mind, it becomes easier to identify steps that do not contribute directly to continuous delivery. The team then works to eliminate or reduce these wasteful steps. [Source: Lean Enterprise Institute]
+
+3. Flow: Once waste is eliminated from the value stream, the focus shifts to ensuring that the remaining processes work effectively and efficiently. This involves minimizing delays, disruptions, and bottlenecks. Steps that create value should work in tight sequences to enable smooth product flow towards the customer. [Source: Lean Enterprise Institute]
+
+4. Pull: Achieving enhanced flow allows the team to deliver products and services faster. Implementing a pull system enables "just-in-time" manufacturing and delivery, where production is limited to meet customer demand, reducing inventory and work in progress (WIP) items. [Source: Lean Enterprise Institute]
+
+5. Perfection: The Lean journey does not end with waste elimination. Seeking perfection is an ongoing process. There will always be room for improvement, and certain steps in project and product development may still waste time, money, or fail to deliver value. Continually striving for perfection ensures a culture of continuous improvement. [Source: Lean Enterprise Institute]
 
 ## What are the difference between Scrum and other methods?
 Scrum, Lean, and Kanban differ in their approaches and focus:
@@ -52,6 +67,6 @@ When selecting an agile management tool, several factors need to be considered:
 - Cohn, M. (2009). Succeeding with Agile: Software Development Using Scrum. Addison-Wesley Professional.
 - Fowler, M., & Highsmith, J. (2001). The Agile Manifesto. Retrieved from https://martinfowler.com/articles/agileManifesto.html
 - Atlassian. (2022). What is Scrum? Retrieved from https://www.atlassian.com/agile/scrum
-- O’Loughlin, E. (2020, February 5). Agile Project Management Software User Report: 2020. Capterra. Retrieved from https://blog.capterra.com/agile-project-management-software-user-report/
 - All of us at monday.com. (2022, February 1). Lean vs Scrum comparison [2022]. Monday.Com Blog. Retrieved from https://monday.com/blog/project-management/lean-vs-scrum/
-
+- Sean Blake. (2021) https://www.easyagile.com/blog/lean-agile/
+- https://www.lean.org/WhatIsLean/Principles.cfm

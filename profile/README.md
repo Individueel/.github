@@ -23,7 +23,11 @@
     - [Unit Testing](#unit-testing)
 
 - [Learning Outcome 3: Agile method](#learning-outcome-3-agile-method)
-    - [Agile method](#agile-method)
+    - [Agile](#agile)
+    - [Why people dislike pure scrum](#why-people-dislike-pure-scrum)
+    - [What to like about Agile working](#what-to-like-about-agile-working)
+    - [Our choice of Agile](#our-choice-of-agile)
+    - [Sprints](#sprints)
             
 - [Learning Outcome 4: CI/CD](#learning-outcome-4-cicd)
     - [Continuous Integration](#continuous-integration)
@@ -33,27 +37,19 @@
     - [Cultural differences](#what-is-culture)
     - [Ethics](#what-are-ethics)
 
-- [Learning Outcome 6: Design](#learning-outcome-6-design)
+- [Learning Outcome 6: Requirements & Design](#learning-outcome-6-requirements--design)
     - [Architecture](#architecture)
-    - [Model](#model)
+    - [Model](#model-1)
     - [User stories](#user-stories)
 
 - [Learning Outcome 7: Business processes](#learning-outcome-7-business-processes)
-    - [Business processes](#business-processes)
+    - [Business Process Model](#business-process-model)
 
-- [Learning Outcome 8: Professional](#learning-outcome-8-professional-ip)
-    - [Professional](#professional)
+- [Learning Outcome 8: Professional](#learning-outcome-8-professional)
     - [Feedback](#feedback)
+    - [Substantiating solutions](#substantiating-solutions)
+    - [Problems in team](#problems-in-team)
     - [Researches](#research)
-
-- [Reflection](#reflection)
-    - [What went good?](#what-went-good)
-    - [What will I do different next time?](#what-will-i-do-different-next-time)
-    - [What did I learn?](#what-did-i-learn)
-- [Epilogue](#epilogue)
-
-
-
 
 
 # Products
@@ -323,20 +319,8 @@ Also the way I collect data from users can clash with ethics of users regarding 
 In my group project I am creating a parking garage app.
 Here it is an ethical question whether people who have an electric car, should have a special spot for their cars, and whether they should be at the front of the garage, as often is seen.
 
-# Learning Outcome 6: Design
+# Learning Outcome 6: Requirements & Design
 *You translate (non-functional) requirements, elaborate (architectural) designs and validate them using **multiple types of test techniques**.*
-
-## User Stories
-1.  As a website visitor, I want to be able to search for different products by name, category or price range, so that I can easily find what I'm looking for.
-2.  As a website visitor, I want to be able to compare multiple products side by side, so that I can see how they differ and make an informed decision.
-3.  As a website visitor, I want to be able to create a list of my favorite products, so that I can easily access them later and compare them again.
-4.  As a website visitor, I want to be able to create an account using Google OAuth, so that I can easily log in and save my favorite products across devices.
-5.  As a website visitor, I want to be able to rate and review products, so that I can share my opinion and help others make a decision.
-6.  As a website visitor, I want to be able to see the ratings and reviews of other users, so that I can get a better idea of the quality of the product.
-7.  As a website visitor, I want to be able to see the price history of a product, so that I can determine if it's a good time to buy.
-8.  As a website visitor, I want to be able to receive notifications when a product I'm interested in goes on sale, so that I can take advantage of the discount.
-9.  As a website visitor, I want to be able to share a link to a product with my friends, so that I can get their opinion and recommendations.
-10. As a website visitor, I want to be able to report a product if I think it's misrepresented or fraudulent, so that other users can avoid it.
 
 ## Architecture
 I made an architecture diagram to determine what kind of structure, and stack I want my application to be be.
@@ -354,6 +338,18 @@ And later on I also decided to make use of a discovery server, as this allows me
 
 ![image](./images/architecture_modelv3.png)
 
+## User Stories
+1.  As a website visitor, I want to be able to search for different products by name, category or price range, so that I can easily find what I'm looking for.
+2.  As a website visitor, I want to be able to compare multiple products side by side, so that I can see how they differ and make an informed decision.
+3.  As a website visitor, I want to be able to create a list of my favorite products, so that I can easily access them later and compare them again.
+4.  As a website visitor, I want to be able to create an account using Google OAuth, so that I can easily log in and save my favorite products across devices.
+5.  As a website visitor, I want to be able to rate and review products, so that I can share my opinion and help others make a decision.
+6.  As a website visitor, I want to be able to see the ratings and reviews of other users, so that I can get a better idea of the quality of the product.
+7.  As a website visitor, I want to be able to see the price history of a product, so that I can determine if it's a good time to buy.
+8.  As a website visitor, I want to be able to receive notifications when a product I'm interested in goes on sale, so that I can take advantage of the discount.
+9.  As a website visitor, I want to be able to share a link to a product with my friends, so that I can get their opinion and recommendations.
+10. As a website visitor, I want to be able to report a product if I think it's misrepresented or fraudulent, so that other users can avoid it.
+
 ## UI Designs
 Earlier in this document I showed my UI designs, and the process of evolution my designs took.
 [Link](#Front-end)
@@ -363,17 +359,29 @@ And I came up with these 3 colors I use through my whole website.
 ![image](./images/color_scheme.png)
 
 ## UX-Testing
-The simplest way of UI testing, is simply asking someone to use your website, and ask for feedback.
-So I made my sister test my website for me.
+To test UX, you can use various usability tests.
+Usability testing is a crucial aspect of software development to evaluate the user-friendliness, efficiency, and effectiveness of a software product.
+
+- qualitative and quantitative usability tests
+[Source](https://www.nngroup.com/articles/usability-testing-101/)
+In qualitative testing for usability, the focus lies on gathering insights, observations, and stories about individuals' usage of the product or service. This method is ideal for uncovering issues within the user experience. Qualitative testing is more prevalent compared to its quantitative counterpart.
+Quantitative usability testing, on the other hand, centers around gathering metrics that depict the user experience. Two commonly collected metrics in quantitative testing are task success and time on task. This approach is most effective for establishing benchmarks.
+
+- Moderated vs. Unmoderated remote Testing
+[Source](https://www.nngroup.com/articles/usability-testing-101/)
+Remote moderated usability tests function similarly to in-person studies. The facilitator engages with the participant, instructing them to perform tasks. The key difference is that the facilitator and participant are situated in separate physical locations. Typically, screen-sharing software like Skype or Teams is used to facilitate moderated tests.
+In contrast, remote unmoderated usability tests lack the facilitator-participant interaction found in in-person or moderated tests. Instead, researchers employ dedicated online remote-testing tools to provide written tasks for participants. Participants then complete these tasks independently and at their own convenience. The testing tool delivers task instructions and any subsequent questions. Once the participant finishes the test, the researcher receives a recording of the session, accompanied by metrics such as task success.
+
+To do UX testing for my website, I used in person qualitative unmoderated testing.
+So I made my sister test my website for me, I asked her to walk trough the process of finding a product, and comparing it with another product.
 She didn't like the initial navigation bar on the left side of my products page, because it was a lot of scrolling to navigate towards the filter you want.
 And that was the main thing that bugged her on my website. 
 The only other thing was that my profile page was not complete yet, but this is because I have no priority on finishing that right now.
 
-I could also use google lighthouse to further test my UI. With this I can perform speed tests, to see which things in my application run smooth or not.
+I could also use google lighthouse to further test my UX. With this I can perform speed tests, to see which things in my application run smooth or not.
 This can help me address problems and help me fix these.
 I have not set it up, because I have never used it before, and it is not my priority right now.
 But I know this tool exists and may be useful in the future.
-
 
 # Learning Outcome 7: Business processes
 *You can **translate** business requirements to software requirements and **validate** them using **multiple types of test techniques**.*
@@ -396,7 +404,13 @@ Then the right start commands for each folder is being loaded, and then those st
 Leading to the moment where all projects are booted up and opened on new internet tabs.
 This helps us developers to quickly go to work, and improve our efficiency.
 
-In our group project we are making a parking garage app, here is a business process that a user can click on a button to search for a free spot in the garage, if they don't have a reservation. And if the user has a reservation it will assign the spot that was reservated for the user. Then the user receives their parking spot in the application so they know where to drive to. And in the database is then registered that the user is in the parking garage.
+## Business Process Model
+In a parking garage there is a business process where a car enters the garage, and then has to find a free spot in the garage.
+Without our app, the driver has to drive around the garage to find a free spot, and this can take a lot of time.
+With our app, the driver can see on his phone where their assigned free spot is, and can drive directly to that spot.
+Also the need for having to remember their spot is gone, as the app will remember it for you.
+![image](./images/business_process_model.png)
+
 
 # Learning Outcome 8: Professional
 *You act in a **professional manner** during software development and learning.*
@@ -424,14 +438,3 @@ During this semester I tried to have a meeting with my teachers for my individua
 
 ## Research
 See this [Link](#research)
-
-# Reflection
-
-## What went good?
-TODO
-
-## What will I do different next time?
-TODO
-
-## What did I learn?
-TODO
