@@ -409,8 +409,11 @@ In a parking garage there is a business process where a car enters the garage, a
 Without our app, the driver has to drive around the garage to find a free spot, and this can take a lot of time.
 With our app, the driver can see on his phone where their assigned free spot is, and can drive directly to that spot.
 Also the need for having to remember their spot is gone, as the app will remember it for you.
-![image](./images/business_process_model.png)
-
+As you can see are both processes the same length in tasks, but the first one has a loop that can take a long time based on how full a parking garage in.
+While the improved process with our app, adds a system that finds a free spot within a second.
+That's why our app improves the business process of finding a free parking spot.
+![image](./images/business_process1.png)
+![image](./images/business_process2.png)
 
 # Learning Outcome 8: Professional
 *You act in a **professional manner** during software development and learning.*
