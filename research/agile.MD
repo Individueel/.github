@@ -1,4 +1,4 @@
-# Onderzoek Agile Methoden - Mike van den Hoef ( Fontys ICT ) - What scrum method should I use
+# Onderzoek Agile Methoden - Mike van den Hoef ( Fontys ICT )
 
 ## Table of contents
 - [What is agile development?](#what-is-agile-development)
@@ -8,6 +8,12 @@
 - [Differences scrum and other methods](#what-are-the-difference-between-scrum-and-other-methods)
 - [Choosing an Agile Management Tool](#choosing-an-agile-management-tool)
 - [Sources](#sources)
+
+# What scrum method is best applicable for my project?
+In order to determine the most suitable Scrum method for my project, I have formulated several sub-questions that I aim to address comprehensively. By answering these sub-questions, I will be able to arrive at a well-informed response to the main research question. 
+
+## Research Methods
+In order to address my research questions, I will employ various methods to gather relevant information. Firstly, I will conduct extensive internet research, utilizing the vast resources available online to explore and analyze existing data, scholarly articles, reports, and other pertinent sources. This will enable me to gain comprehensive insights and a broader understanding of the topic at hand. Additionally, I plan to conduct interviews with professionals in the field, seeking their expertise and firsthand experiences to provide valuable perspectives and deepen my understanding of the subject matter. By combining these research methods, I aim to gather comprehensive and well-rounded information to effectively answer my research questions.
 
 ## What is agile development?
 Agile development is a project management approach that emphasizes frequent delivery of working software in small increments. Unlike traditional "all-at-once" approaches, Agile allows teams to provide regular updates and involve the customer throughout the development process. Agile teams review requirements, plans, and deliverables at each iteration, enabling them to adapt to changes effectively.
@@ -51,13 +57,15 @@ Scrum, Lean, and Kanban differ in their approaches and focus:
 - Kanban: Kanban focuses on visualizing work and limiting the number of ongoing processes simultaneously. It aims to accelerate project completion through a kanban board and continuous workflow improvement. (Anderson, 2010)
 
 ## Choosing an Agile Management Tool
-
 When selecting an agile management tool, several factors need to be considered:
 
-- Compatibility with Scrum principles: As students, it is essential to find a tool that aligns with the principles of Scrum. For example, it should allow for iterative development and frequent feedback loops with the customer.
-- Compatibility with Scrum principles: As students, it is essential to find a tool that aligns with Scrum principles, allowing you to effectively manage and track your projects. (Atlassian, 2022)
+- Compatibility with Agile principles: As students, it is essential to find a tool that aligns with the principles of Agile. For example, it should allow for iterative development and frequent feedback loops with the customer.
+- Compatibility with Agile principles: As students, it is essential to find a tool that aligns with Agile principles, allowing you to effectively manage and track your projects. (Atlassian, 2022)
 - Free for students: Finding a tool that is free for students can help you stay within budget while still benefiting from agile management features.
 - Acceptance by professionals: It is important to choose a tool that is widely accepted and used by professionals in software development, as this indicates its reliability and suitability for real-world projects. (Capterra, 2022)
+
+## So what scrum method is best for my project?
+For my group project I would use scrum. It can be used free by us students, is acceptable by professional. And because we have used it in the past on school it is familiar to us. 
 
 ## Sources
 - Agile Alliance. (2021). Agile Principles. Retrieved from https://www.agilealliance.org/agile101/12-principles-behind-the-agile-manifesto/

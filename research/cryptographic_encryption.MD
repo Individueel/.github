@@ -17,6 +17,9 @@
 ## Which type of cryptographic algorithm in software systems is most secure?
 Cryptographic algorithms play a crucial role in securing data in various applications. With the increasing number of cyber-attacks, it is essential to determine which cryptographic algorithm is the most secure. In this research, I will compare and analyze some of the most commonly used cryptographic algorithms in terms of their security features (Stubbs, n.d.). By evaluating their strengths and weaknesses, I aim to identify the algorithm that provides the highest level of security for software systems.
 
+## Research Methods
+To address my research questions, I will employ the method of internet research as a primary means of retrieving information. The internet serves as a vast repository of knowledge, offering a wide range of resources and data related to my research topic. By utilizing search engines, online databases, scholarly articles, and reputable websites, I will be able to access a wealth of information relevant to my study. Internet research enables me to explore different perspectives, analyze existing studies, gather statistical data, and review previous research findings. Through systematic and thorough internet research, I aim to acquire a comprehensive understanding of the subject matter and obtain the necessary information to answer my research questions effectively.
+
 ## What is a cryptographical algorithm?
 A cryptographic algorithm is a mathematical formula used for data encryption, authentication, and digital signatures. It transforms plain text into unintelligible data through encryption techniques, ensuring confidentiality and security (What Is Cryptography or a Cryptographic Algorithm? | DigiCert FAQ, n.d.).
 
